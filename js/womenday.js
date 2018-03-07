@@ -1,0 +1,1 @@
+window.onload=function(){var a=document.getElementById("music"),b=document.getElementsByTagName("audio")[0];b.addEventListener("ended",function(){a.setAttribute("class","")},!1),a.addEventListener("touchstart",function(){b.paused?(b.play(),this.setAttribute("class","play")):(b.pause(),this.setAttribute("class",""))},!1)};
